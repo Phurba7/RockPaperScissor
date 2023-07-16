@@ -1,0 +1,49 @@
+Define the rules() function:
+
+Display the game rules to the user.
+Define the get_user_choice() function:
+
+Prompt the user to enter their choice (rock, paper, or scissors).
+Convert the user's input to lowercase.
+Return the user's choice.
+Define the get_computer_choice() function:
+
+Create a list of options: rock, paper, scissors.
+Randomly select an option from the list as the computer's choice.
+Print and return the computer's choice.
+Define the determine_winner() function:
+
+Compare the user's choice with the computer's choice.
+Determine the winner based on the game rules (rock beats scissors, paper beats rock, scissors beat paper, or a draw if both choices are the same).
+Return the winner: "user", "computer", or "draw".
+Define the play_again() function:
+
+Prompt the user to play again (y/n).
+Return True if the user wants to play again, False otherwise.
+Define the get_login() function:
+
+Prompt the user to enter a username and password.
+Check if the entered credentials match the default username and password ("admin").
+Return True if the credentials are correct, False otherwise.
+Define the display_lives() function:
+
+Print the number of lives the user has remaining.
+Define the play_game() function:
+
+Check the login credentials with get_login().
+Initialize the user and computer lives to 3.
+Enter a game loop:
+Display the user's remaining lives.
+Get the user's choice with get_user_choice().
+Get the computer's choice with get_computer_choice().
+Determine the winner with determine_winner().
+Handle different outcomes:
+If it's a draw, print the message and continue the loop.
+If the user wins, update lives and check if the user won the game.
+If the computer wins, update lives and check if the user lost the game.
+Prompt the user to play again with play_again().
+If yes, continue the loop; otherwise, end the loop.
+Print a final message.
+Call the rules() function to display the game rules.
+
+Call the play_game() function to start the game.
